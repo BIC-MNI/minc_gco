@@ -1,0 +1,91 @@
+# Citation metadata for minc_gco (Citation File Format, https://citation-file-format.github.io/).
+# The author list comes from the commit history and from the history comments in the files.
+
+cff-version: 1.2.0
+title: minc_gco
+message: >-
+  If you use this software, please cite it using the metadata from this file.
+  The bundled gco-v3.0 library requires that you also cite the publications
+  listed under references.
+type: software
+authors:
+  - given-names: Vladimir
+    family-names: Fonov
+    email: vladimir.fonov@gmail.com
+    affiliation: McGill University
+    orcid: "https://orcid.org/0000-0003-3402-7749"
+repository-code: "https://github.com/BIC-MNI/minc_gco"
+abstract: >-
+  MINC wrapper of graph-cut algorithms: simple programs around the gco-v3.0
+  multi-label graph optimization library.
+keywords:
+  - MINC
+  - medical imaging
+  - segmentation
+  - graph cuts
+references:
+  - type: article
+    title: Fast approximate energy minimization via graph cuts
+    authors:
+      - given-names: Yuri
+        family-names: Boykov
+      - given-names: Olga
+        family-names: Veksler
+      - given-names: R.
+        family-names: Zabih
+    journal: IEEE Transactions on Pattern Analysis and Machine Intelligence
+    volume: 23
+    issue: 11
+    start: 1222
+    end: 1239
+    year: 2001
+    doi: "10.1109/34.969114"
+  - type: article
+    title: "What energy functions can be minimized via graph cuts?"
+    authors:
+      - given-names: Vladimir
+        family-names: Kolmogorov
+      - given-names: R.
+        family-names: Zabih
+    journal: IEEE Transactions on Pattern Analysis and Machine Intelligence
+    volume: 26
+    issue: 2
+    start: 147
+    end: 159
+    year: 2004
+    month: 2
+    doi: "10.1109/TPAMI.2004.1262177"
+  - type: article
+    title: An experimental comparison of min-cut/max-flow algorithms for energy minimization in vision
+    authors:
+      - given-names: Yuri
+        family-names: Boykov
+      - given-names: Vladimir
+        family-names: Kolmogorov
+    journal: IEEE Transactions on Pattern Analysis and Machine Intelligence
+    volume: 26
+    issue: 9
+    start: 1124
+    end: 1137
+    year: 2004
+    month: 9
+    doi: "10.1109/TPAMI.2004.60"
+  - type: conference-paper
+    title: Fast approximate energy minimization with label costs
+    authors:
+      - given-names: Andrew
+        family-names: Delong
+      - given-names: Anton
+        family-names: Osokin
+      - given-names: Hossam N.
+        family-names: Isack
+      - given-names: Yuri
+        family-names: Boykov
+    collection-title: 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition
+    start: 2173
+    end: 2180
+    year: 2010
+    month: 6
+    publisher:
+      name: IEEE
+    doi: "10.1109/CVPR.2010.5539897"
